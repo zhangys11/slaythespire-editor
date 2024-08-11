@@ -51,3 +51,8 @@ https://jrsoftware.org/isinfo.php
 ## Other STS editors:
 
   https://gira-x.github.io/save-the-spire/
+
+# Update and Fix
+
+* Add the `starter` relic type.  
+* Fix the duplicating relics bug on saving.  

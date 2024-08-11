@@ -14,7 +14,7 @@ from Krakatau.assembler.disassembly import Disassembler
 from Krakatau.classfileformat.classdata import ClassData
 from Krakatau.classfileformat.reader import Reader
 
-RELIC_TIERS = ["common", "uncommon", "rare", "boss", "shop"]
+RELIC_TIERS = ["starter", "common", "uncommon", "rare", "boss", "shop"]
 NEOW_CHOICES = []
 # ok.. so we're going to reach inside the StS jar and decompile some java
 # classes to rip out what we want.  Why?  Well, because we can.
@@ -773,7 +773,7 @@ class MyRelicPanel(wx.ScrolledWindow):
         self.redraw_relics()
 
     def get_relics(self):
-        return self.relics
+        return list(set(self.relics))
 
 
 class RelicTierPanel(wx.ScrolledWindow):
