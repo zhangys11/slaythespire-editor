@@ -18,7 +18,7 @@ You can do the same as osx/linux, or you can use the windows install binary:
 https://github.com/jason-kane/slaythespire-editor/releases
 
 ## But.. how do I _use_ it?
-Start a game.  At any time after the first group, save and exit to the main screen.  Run editor.py, File->Load the .autosave for your character.  Change whatever you want.  Maybe HP and Max HP, or Gold.  File->Save.  Go back to STS and "Continue".  If all goes well you'll see your change.  If all goes badly.. well, karma?  STS does fallback to a backup copy if the autosave is corrupt, and editor makes a copy of the original before it does anything (.autosave.1) so it is at least somewhat safe.
+Start a game.  At any time after the first group, save and exit to the main screen.  Run editor.py, File->Load the .autosave (under the folder `C:\Program Files (x86)\Steam\steamapps\common\SlayTheSpire\saves`) for your character.  Change whatever you want.  Maybe HP and Max HP, or Gold.  File->Save.  Go back to STS and "Continue".  If all goes well you'll see your change.  If all goes badly.. well, karma?  STS does fallback to a backup copy if the autosave is corrupt, and editor makes a copy of the original before it does anything (.autosave.1) so it is at least somewhat safe.
 
 Potions are not done yet, but Cards and Relics can be added/removed.  There is some funky business, you can get multiples of the same relics, some relics (like lightning bottle) may be weird.  Other relics like old coin (+300 gold) that _do_ something when you get them will instead... do nothing.
 
