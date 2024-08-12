@@ -1,5 +1,6 @@
 # Save The Spire Savefile Editor
 
+![alt text](image.png)
 Python/wxPython based.
 
 ## Getting Started
