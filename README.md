@@ -57,3 +57,8 @@ https://jrsoftware.org/isinfo.php
 
 * Add the `starter` relic type.  
 * Fix the duplicating relics bug on saving.  
+
+# TODO
+
+* save potions  
+* save for Ritual dagger / genetic algorithm that have dynamic attribute values

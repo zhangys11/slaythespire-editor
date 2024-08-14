@@ -71,6 +71,10 @@ class Potion:
 
 
 def initialize():
+    '''
+    desktop-1.0.jar is the main executable file in the STS folder.
+    '''
+
     global NEOW_CHOICES
     global ROOM_CHOICES
     global all_cards
