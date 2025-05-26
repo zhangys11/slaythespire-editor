@@ -43,8 +43,10 @@ I'm trying to dig most of the data out of the jar to automatically keep up with 
 
 ## Building Win Installable
 
-pip install py2exe
+```
+pip install wxPython Krakatau-noff py2exe
 python setup.py py2exe
+```
 
 https://jrsoftware.org/isinfo.php
 
